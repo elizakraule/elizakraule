@@ -15,7 +15,7 @@ h1 {
   margin-top: 5px;
   color: blue;
   font-family: Poppins;
-  line-height: 1.3;
+  
 }
 
 /* Applies to all elements with <... class="someclass"> specified. */
@@ -38,12 +38,28 @@ a {
   margin-bottom:10px;
   margin-left:10px;
   margin-right: 10px;
-  transition: color 0.2s;
+  transition: color 1s;
   transition: margin 0.2s
 }
 
 a:hover {
   color: whitesmoke;
   margin: 0 0 0 10px;
+}
+
+.floating-menu {
+  font-family: sans-serif;
+  background-color: lightblue;
+  padding: 5px;;
+  width: 130px;
+  z-index: 100;
+  position: fixed;
+}
+.floating-menu a, 
+.floating-menu h3 {
+  font-size: 0.9em;
+  display: block;
+  margin: 0 0.5em;
+  color: white;
 }
 
