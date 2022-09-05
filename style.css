@@ -5,6 +5,7 @@ body {
   background-color: rgb(213, 8, 8);
   font-family: monospace;
   font-size: 14px;
+  line-height: 1.5px;
 }
 
 /* Applies to all <h1>...</h1> elements. */
