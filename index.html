@@ -5,85 +5,80 @@
     <body>
 <header>
     <nav class="floating-menu">
-    <div>
     
         <!---- TEAM NAME ---->
         <a href="#">IGEM RIGA LATVIA</a>
-        <div >
-          <ul >
-    
+
             <!---- HOME ---->
-            <li >
-              <a href="#">HOME</a>
-            </li>
+            <ul>
+                <a href="#">HOME</a>
+            </ul>
+         
     
             <!---- TEAM ---->
-            <li >
+            <ul>
               <a  href="{{ url_for('pages', page='team') }}">
                 TEAM
-              </a>
-              <!--
-              <ul>
+              </a>  
+              <ul class="drop_items">
                 <li><a  href="{{ url_for('pages', page='team') }}">Team</a></li>
                 <li><a  href="{{ url_for('pages', page='attributions') }}">Attributions</a></li>
                 <li><a  href="{{ url_for('pages', page='collaborations') }}">Collaborations</a></li>
               </ul>
-              --->
-            </li>
+            </ul>
     
             <!---- PROJECT ---->
-            <li>
+            <ul>
               <a href="#" >
                 PROJECT
               </a>
-              <!--
-                <li><a class="dropdown" href="{{ url_for('pages', page='communication') }}">Communication</a></li>
-                <li><a class="dropdown" href="{{ url_for('pages', page='contribution') }}">Contribution</a></li>
-                <li><a class="dropdown" href="{{ url_for('pages', page='description') }}">Description</a></li>
-                <li><a class="dropdown" href="{{ url_for('pages', page='engineering') }}">Engineering</a></li>
-                <li><a class="dropdown" href="{{ url_for('pages', page='experiments') }}">Experiments</a></li>
+
+               <ul class="drop_items">
+                    <li><a class="dropdown" href="{{ url_for('pages', page='communication') }}">Communication</a></li>
+                    <li><a class="dropdown" href="{{ url_for('pages', page='contribution') }}">Contribution</a></li>
+                     <li><a class="dropdown" href="{{ url_for('pages', page='description') }}">Description</a></li>
+                     <li><a class="dropdown" href="{{ url_for('pages', page='engineering') }}">Engineering</a></li>
+                   <li><a class="dropdown" href="{{ url_for('pages', page='experiments') }}">Experiments</a></li>
                 <li><a class="dropdown" href="{{ url_for('pages', page='implementation') }}">Implementation</a></li>
                 <li><a class="dropdown" href="{{ url_for('pages', page='notebook') }}">Notebook</a></li>
                 <li><a class="dropdown" href="{{ url_for('pages', page='partnership') }}">Partnership</a></li>
                 <li><a class="dropdown" href="{{ url_for('pages', page='proof-of-concept') }}">Proof of Concept</a></li>
                 <li><a class="dropdown" href="{{ url_for('pages', page='results') }}">Results</a></li>
-              </ul>
-               --->
-            </li>
+               </ul>
+            
+            </ul>
            
     
             <!---- PARTS ---->
-            <li>
+            <ul>
               <a  href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                 PARTS
               </a>
-              <!--
-              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              
+              <ul class="drop_item" aria-labelledby="navbarDropdown">
                 <li><a class="dropdown-item" href="{{ url_for('pages', page='part-collection') }}">Part Collection</a></li>
                 <li><a class="dropdown-item" href="{{ url_for('pages', page='parts') }}">Parts</a></li>
                 <li><a class="dropdown-item" href="{{ url_for('pages', page='improve') }}">Improve</a></li>
               </ul>
-              ---->
-            </li>
+              
+            </ul>
     
             <!---- SAFETY ---->
-            <li class="nav-item">
-              <a class="nav-link" href="{{ url_for('pages', page='safety') }}">SAFETY</a>
-            </li>
+            <ul>
+              <a  href="{{ url_for('pages', page='safety') }}">SAFETY</a>
+            </ul>
     
             <!---- HUMAN PRACTICES ---->
-            <li class="nav-item">
+            <ul>
               <a class="nav-link" href="{{ url_for('pages', page='human-practices') }}">HUMAN PRACTICES</a>
-            </li>
+            </ul>
     
             <!---- AWARDS ---->
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                AWARDS
-              </a>
-              <!--
-
-              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <ul>
+                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  AWARDS
+                 </a>
+               <ul class="drop_items" >
                 <li><a class="dropdown-item" href="{{ url_for('pages', page='education') }}">Education</a></li>
                 <li><a class="dropdown-item" href="{{ url_for('pages', page='entrepreneurship') }}">Entrepreneurship</a></li>
                 <li><a class="dropdown-item" href="{{ url_for('pages', page='hardware') }}">Hardware</a></li>
@@ -93,13 +88,8 @@
                 <li><a class="dropdown-item" href="{{ url_for('pages', page='plant') }}">Plant</a></li>
                 <li><a class="dropdown-item" href="{{ url_for('pages', page='software') }}">Software</a></li>
                 <li><a class="dropdown-item" href="{{ url_for('pages', page='sustainable') }}">Sustainable</a></li>
-              </ul>
-
-              ---->
-            </li>
-          </ul>
-        </div>
-      </div>
+              </ul>   
+            </ul>
     </nav>
     
 </header> 
