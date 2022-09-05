@@ -33,28 +33,29 @@ h1 {
 a {
   font-family: sans-serif;
   color: yellow;
-  font-size: 32px;
+  font-size: 26px;
   text-decoration: none;
   margin-top: auto;
   margin-left:10px;
   margin-right: 10px;
   transition: color 1s;
   transition: margin 0.2s;
-  line-height: 65pt; 
-  margin-bottom: 50px;
+  line-height: 26pt; 
+  margin-bottom: 10px;
 }
 
 a:hover {
   color: whitesmoke;
-  margin: 0 0 0 10px;
+  margin: 0 0 0 60px;
 }
 
 .floating-menu {
   background-color: lightblue;
   padding: 5px;;
-  width: 130px;
+  width: px;
   z-index: 100;
   position: fixed;
+  text-align: right;
 }
 .floating-menu a, 
 .floating-menu h3 {
@@ -62,3 +63,8 @@ a:hover {
   margin: 0 0.5em;
 }
 
+.footerlink {
+  font-size=
+}
+
+nav ul { list-style-type: none; }
