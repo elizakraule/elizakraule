@@ -49,6 +49,7 @@ a:hover {
   margin: 0 0 0 60px;
 }
 
+/* previous floating menu
 .floating-menu {
   background-color: lightblue;
   padding: 5px;;
@@ -62,7 +63,7 @@ a:hover {
   display: block;
   margin: 0 0.5em;
 }
-
+<... id="someid"> specified. */
 .footerlink {
   font-size:16px;
 }
