@@ -4,26 +4,21 @@ body {
   margin: 25px;
   background-color: rgb(249, 120, 51); /* For browsers that do not support gradients */
   background-image: radial-gradient(rgb(255, 0, 43), rgb(220, 114, 78));
-  font-family: monospace;
+  font-family: sans-serif;
   font-size: 14px;
   line-height: 1.5px;
+  color: 
 }
 
 /* Applies to all <h1>...</h1> elements. */
 h1 {
   font-size: 112x;
   font-weight: bold;
-  margin-top: 5px;
-  color: blue;
-  font-family: Poppins;
+  margin-top: 30% 30%;
+  color: rgb(252, 228, 205);
+  font-family: sans Sans-Serif;
   
 }
-
-/* Applies to all elements with <... class="someclass"> specified. */
-.someclass { color: red; }
-
-/* Applies to the element with <... id="someid"> specified. */
-#someid { color: green; }
 
 .dropdown-item {
   color: green;
@@ -34,7 +29,7 @@ h1 {
 
 a:hover {
   color: whitesmoke;
-  margin: 0 0 0 60px;
+  margin: 0 0 0 40px;
 }
 
 /* previous floating menu
@@ -74,7 +69,7 @@ nav {
   height: 250px;
   padding-bottom: 35px;
   width:220px;
-  margin:10% 80%;
+  margin:3% 80%;
  }
 
 ul, a {
