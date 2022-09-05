@@ -64,7 +64,9 @@ a:hover {
 }
 
 .footerlink {
-  font-size=
+  font-size:16px;
 }
 
-nav ul { list-style-type: none; }
+nav ul { 
+  list-style-type: none;
+ }
