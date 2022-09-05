@@ -20,12 +20,12 @@ h1 {
   
 }
 
-.dropdown-item {
-  color: green;
-  font-size: 30px;
+p{
+  font-size: 32x;
+  font-weight: bold;
+  color: rgb(252, 228, 205);
+  font-family: sans Sans-Serif;
 }
-
-
 
 a:hover {
   color: whitesmoke;
@@ -59,6 +59,12 @@ a {
   transition: margin 0.2s;
   line-height: 26pt; 
   margin-bottom: 10px;
+}
+  .dropdown-item {
+  color: green;
+  font-size: 30px;
+
+
 }
  */
 .footerlink {
