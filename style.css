@@ -30,19 +30,7 @@ h1 {
   font-size: 30px;
 }
 
-a {
-  font-family: sans-serif;
-  color: yellow;
-  font-size: 26px;
-  text-decoration: none;
-  margin-top: auto;
-  margin-left:10px;
-  margin-right: 10px;
-  transition: color 1s;
-  transition: margin 0.2s;
-  line-height: 26pt; 
-  margin-bottom: 10px;
-}
+
 
 a:hover {
   color: whitesmoke;
@@ -63,27 +51,33 @@ a:hover {
   display: block;
   margin: 0 0.5em;
 }
-<... id="someid"> specified. */
+
+a {
+  font-family: sans-serif;
+  color: yellow;
+  font-size: 26px;
+  text-decoration: none;
+  margin-top: auto;
+  margin-left:10px;
+  margin-right: 10px;
+  transition: color 1s;
+  transition: margin 0.2s;
+  line-height: 26pt; 
+  margin-bottom: 10px;
+}
+ */
 .footerlink {
   font-size:16px;
 }
 
-nav ul { 
-  list-style-type: none;
+nav { 
   height: 250px;
   padding-bottom: 35px;
   width:220px;
-  margin:10% 35%;
+  margin:10% 80%;
  }
 
-
- .drop_items {
-  display:none;
-  padding-left: 0;
-  padding-bottom:2px;
-}
-
-ul {
+ul, a {
   padding:0;
   color: #c3c3c3;
   font-weight: bold;
@@ -91,6 +85,12 @@ ul {
   font-family:Sans-Serif;
   cursor:default;
   text-align:right;
+}
+
+ .drop_items {
+  display:none;
+  padding-left: 0;
+  padding-bottom:2px;
 }
 
 li > a {
