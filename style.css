@@ -31,7 +31,7 @@ h1 {
 }
 
 a {
-  font: Source Sans Pro;
+  font-family: sans-serif;
   color: yellow;
   font-size: 32px;
   text-decoration: none;
@@ -50,7 +50,6 @@ a:hover {
 }
 
 .floating-menu {
-  font-family: sans-serif;
   background-color: lightblue;
   padding: 5px;;
   width: 130px;
@@ -59,9 +58,7 @@ a:hover {
 }
 .floating-menu a, 
 .floating-menu h3 {
-  font-size: 0.9em;
   display: block;
   margin: 0 0.5em;
-  color: white;
 }
 
