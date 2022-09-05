@@ -7,7 +7,7 @@ body {
   font-family: sans-serif;
   font-size: 14px;
   line-height: 1.5px;
-  color: 
+  color: rgb(252, 228, 205); 
 }
 
 /* Applies to all <h1>...</h1> elements. */
@@ -20,7 +20,7 @@ h1 {
   
 }
 
-p{
+p {
   font-size: 32x;
   font-weight: bold;
   color: rgb(252, 228, 205);
