@@ -78,7 +78,21 @@ nav {
   margin:3% 80%;
  }
 
-ul, a {
+ a {
+  font-family: sans-serif;
+  color: yellow;
+  font-size: 20px;
+  text-decoration: none;
+  margin-top: auto;
+  margin-left:10px;
+  margin-right: 10px;
+  transition: color 1s;
+  transition: margin 0.2s;
+  line-height: 26px; 
+  margin-bottom: 10px;
+ }
+
+ul {
   padding:0;
   color: #c3c3c3;
   font-weight: bold;
