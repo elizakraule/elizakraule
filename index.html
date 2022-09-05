@@ -6,7 +6,7 @@
 <header>
     <nav class="floating-menu">
     <div>
-
+    
         <!---- TEAM NAME ---->
         <a href="#">IGEM RIGA LATVIA</a>
         <div >
@@ -14,27 +14,29 @@
     
             <!---- HOME ---->
             <li >
-              <a href="#">Home</a>
+              <a href="#">HOME</a>
             </li>
     
             <!---- TEAM ---->
             <li >
               <a  href="{{ url_for('pages', page='team') }}">
-                Team
+                TEAM
               </a>
+              <!--
               <ul>
                 <li><a  href="{{ url_for('pages', page='team') }}">Team</a></li>
                 <li><a  href="{{ url_for('pages', page='attributions') }}">Attributions</a></li>
                 <li><a  href="{{ url_for('pages', page='collaborations') }}">Collaborations</a></li>
               </ul>
+              --->
             </li>
     
             <!---- PROJECT ---->
             <li>
               <a href="#" >
-                Project
+                PROJECT
               </a>
-              <ul>
+              <!--
                 <li><a class="dropdown" href="{{ url_for('pages', page='communication') }}">Communication</a></li>
                 <li><a class="dropdown" href="{{ url_for('pages', page='contribution') }}">Contribution</a></li>
                 <li><a class="dropdown" href="{{ url_for('pages', page='description') }}">Description</a></li>
@@ -46,18 +48,22 @@
                 <li><a class="dropdown" href="{{ url_for('pages', page='proof-of-concept') }}">Proof of Concept</a></li>
                 <li><a class="dropdown" href="{{ url_for('pages', page='results') }}">Results</a></li>
               </ul>
+               --->
             </li>
+           
     
             <!---- PARTS ---->
             <li>
               <a  href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                Parts
+                PARTS
               </a>
+              <!--
               <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                 <li><a class="dropdown-item" href="{{ url_for('pages', page='part-collection') }}">Part Collection</a></li>
                 <li><a class="dropdown-item" href="{{ url_for('pages', page='parts') }}">Parts</a></li>
                 <li><a class="dropdown-item" href="{{ url_for('pages', page='improve') }}">Improve</a></li>
               </ul>
+              ---->
             </li>
     
             <!---- SAFETY ---->
@@ -73,8 +79,10 @@
             <!---- AWARDS ---->
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                Awards
+                AWARDS
               </a>
+              <!--
+
               <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                 <li><a class="dropdown-item" href="{{ url_for('pages', page='education') }}">Education</a></li>
                 <li><a class="dropdown-item" href="{{ url_for('pages', page='entrepreneurship') }}">Entrepreneurship</a></li>
@@ -86,6 +94,8 @@
                 <li><a class="dropdown-item" href="{{ url_for('pages', page='software') }}">Software</a></li>
                 <li><a class="dropdown-item" href="{{ url_for('pages', page='sustainable') }}">Sustainable</a></li>
               </ul>
+
+              ---->
             </li>
           </ul>
         </div>
