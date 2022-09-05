@@ -69,4 +69,49 @@ a:hover {
 
 nav ul { 
   list-style-type: none;
+  height: 250px;
+  padding-bottom: 35px;
+  width:220px;
+  margin:10% 35%;
  }
+
+
+ .drop_items {
+  display:none;
+  padding-left: 0;
+  padding-bottom:2px;
+}
+
+ul {
+  padding:0;
+  color: #c3c3c3;
+  font-weight: bold;
+  font-size:20px;
+  font-family:Sans-Serif;
+  cursor:default;
+  text-align:right;
+}
+
+li > a {
+  text-decoration:none;
+  color: yellow;
+  font-weight: bold;
+  font-size:20px;
+  font-family:Sans-Serif;
+}
+
+ul:hover {
+  color:#dedcdc;
+  text-decoration:none;
+}
+
+ul:hover ul, li, li > a {
+  display: block;
+  list-style-type:none;
+  text-decoration:none;
+  font-size:18px;
+}
+
+li > a:hover {
+  color:#dedcdc;
+}
