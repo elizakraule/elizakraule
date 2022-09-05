@@ -2,7 +2,8 @@
 selectors). */
 body {
   margin: 25px;
-  background-color: rgb(246, 110, 83);
+  background-color: rgb(249, 120, 51); /* For browsers that do not support gradients */
+  background-image: radial-gradient(rgb(255, 0, 31), rgb(255, 139, 59));
   font-family: monospace;
   font-size: 14px;
   line-height: 1.5px;
