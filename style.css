@@ -32,9 +32,16 @@ a {
   color: whitesmoke;
   font-size: 14px;
   text-decoration: none;
+  margin-top: auto;
+  margin-bottom:10px;
+  margin-left:10px;
+  margin-right: 10px;
+  transition: color 0.2s;
+  transition: margin 0.2s
 }
 
 a:hover {
-  color: yellow
+  color: yellow;
+  margin: 0 0 0 10px;
 }
 
