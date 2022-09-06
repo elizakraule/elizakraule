@@ -1,12 +1,20 @@
 /* Applies to the entire body of the HTML document (except where overridden by more specific
 selectors). */
+
+*{
+  margin:0;
+  padding:0;
+}
+
+html, body {
+  height:100%;
+}
+
 body {
-  margin: 25px;
   background-color: rgb(249, 120, 51); /* For browsers that do not support gradients */
   background-image: radial-gradient(rgb(255, 0, 43), rgb(220, 114, 78));
   font-family: sans-serif;
   font-size: 14px;
-  line-height: 1.5;
   color: rgb(252, 228, 205); 
   min-height: 100vh;
 }
@@ -107,11 +115,18 @@ li > a:hover {
 
 /* FOOTER */
 
-footer{ 
-  margin: 0 0 0 0;
-  bottom:0; 
-  width:100%; 
-  background:#DB8A8A;
-  height:auto; 
+#container{
+  min-height:100%;
 }
 
+#main{
+  overflow:auto;
+  padding-bottom:200px; /*footer height*/
+}
+#footer{
+  background-color: black;
+  position: relative;
+  height: 200px;
+  margin-top: -200px;
+  clear: both;
+}
