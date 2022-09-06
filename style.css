@@ -11,6 +11,7 @@ html, body {
 }
 
 body {
+  margin-top:15px;
   background-color: rgb(249, 120, 51); /* For browsers that do not support gradients */
   background-image: radial-gradient(rgb(255, 0, 43), rgb(220, 114, 78));
   font-family: sans-serif;
@@ -63,6 +64,7 @@ nav {
   font-family:Sans-Serif;
   cursor:default;
   text-align:right;
+  margin-left:10px
 }
 
 .drop_items {
@@ -104,8 +106,8 @@ li > a:hover {
   line-height:1;
   width:55%;
   margin-left:70px;
-  margin-bottom:0;
-  background:yellow;
+  margin-top:200px; /*how low the title is*/
+  /* background: yellow;  turn on to see where text margins are*/
   text-align:left;
 }
 
