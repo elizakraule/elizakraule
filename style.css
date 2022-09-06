@@ -8,6 +8,7 @@ body {
   font-size: 14px;
   line-height: 1.5;
   color: rgb(252, 228, 205); 
+  min-height: 100vh;
 }
 a{
   text-decoration:none
@@ -92,6 +93,16 @@ li > a:hover {
 /* TITLE */
 .title{
   font-size:120px;
+  line-height:1;
+  width:55%;
+  margin-left:70px;
+  margin-bottom:0;
+  background:yellow;
+  text-align:left;
+}
+
+.title_description{
+  margin-left:70px
 }
 
 /* FOOTER */
@@ -99,6 +110,7 @@ li > a:hover {
 footer{ 
   bottom:0; 
   width:100%; 
-  height:100px; 
   background:#DB8A8A;
+  height:auto; 
 }
+
