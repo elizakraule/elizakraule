@@ -7,17 +7,14 @@
 <!---- TEAM NAME dont know how to separate this yet ---->
      <a class="footerlink"href="#">IGEM RIGA LATVIA</a>
     <nav>
-    
-        
-
-            <!---- HOME ---->
+           <!---- HOME ---->
             <ul>
-                <li>  <a href="#">HOME</a> </li> 
+                <li>  <a class="mainitems" href="#">HOME</a> </li> 
             </ul>
             
             <!---- TEAM ---->
             <ul>
-                <li>  <a  href="{{ url_for('pages', page='team') }}">
+                <li>  <a class="mainitems" href="{{ url_for('pages', page='team') }}">
                        TEAM </a>  
                         <ul class="drop_items">
                              <li><a  href="{{ url_for('pages', page='team') }}">Team</a></li>
@@ -30,7 +27,7 @@
     
             <!---- PROJECT ---->
             <ul>
-                <li><a href="#" >PROJECT</a>
+                <li><a class="mainitems" href="#" >PROJECT</a>
                     <ul class="drop_items">
                                 <li><a class="dropdown" href="{{ url_for('pages', page='communication') }}">Communication</a></li>
                                 <li><a class="dropdown" href="{{ url_for('pages', page='contribution') }}">Contribution</a></li>
@@ -48,7 +45,7 @@
             <!---- PARTS ---->
             <ul>
                 <li>
-                    <a  href="#">
+                    <a class="mainitems" href="#">
                             PARTS
                      </a>
                         
@@ -63,19 +60,19 @@
             <!---- SAFETY ---TEST IF WOKRS WITHOUT ANY LINK IN IT-->
            <ul> 
                 <li>
-                    <a  href="{{ url_for('pages', page='safety') }}">SAFETY</a>
+                    <a class="mainitems" href="{{ url_for('pages', page='safety') }}">SAFETY</a>
                 </li>
             </ul>
             <!---- HUMAN PRACTICES ---->
         <ul>    <li>
-                    <a  href="{{ url_for('pages', page='human-practices') }}">HUMAN PRACTICES</a>
+                    <a class="mainitems" href="{{ url_for('pages', page='human-practices') }}">HUMAN PRACTICES</a>
                     <ul>
                         <li><a  href="{{ url_for('pages', page='education') }}">Education</a></li>
                     </ul>
             </li>
     </ul>
             <!---- AWARDS ---->
-           <ul> <li><a href="#">AWARDS</a>
+           <ul> <li><a class="mainitems" href="#">AWARDS</a>
                     <ul class="drop_items">
                                 <li><a  href="{{ url_for('pages', page='education') }}">Education</a></li>
                                 <li><a  href="{{ url_for('pages', page='entrepreneurship') }}">Entrepreneurship</a></li>
