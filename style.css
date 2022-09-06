@@ -108,6 +108,7 @@ li > a:hover {
 /* FOOTER */
 
 footer{ 
+  margin: 0 0 0 0;
   bottom:0; 
   width:100%; 
   background:#DB8A8A;
