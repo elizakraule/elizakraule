@@ -5,22 +5,23 @@ selectors). */
   margin:0;
   padding:0;
   box-sizing: border-box;
-
+ 
 }
 
 html, body {
+ 
   height:100%;
 }
 
 body {
-  margin-top:15px;
-  background-color: rgb(249, 120, 51); /* For browsers that do not support gradients */
+  border-style: solid;
+   background-color: rgb(249, 120, 51); /* For browsers that do not support gradients */
   background-image: radial-gradient(rgb(255, 0, 43), rgb(220, 114, 78));
+  margin-top:15px;
   font-family: sans-serif;
   font-size: 14px;
   color: rgb(252, 228, 205); 
   min-height: 100vh;
-  border-style: solid;
 }
 a{
   text-decoration:none
@@ -105,8 +106,8 @@ li > a:hover {
 
 /* TITLE */
 .title{
-  font-size:120px;
   border-style: solid;
+  font-size:120px;
   line-height:1;
   width:55%;
   margin-left:70px;
@@ -125,10 +126,6 @@ li > a:hover {
   min-height:95%; /* makes sure the footer is pushed bellow works*/
 }
 
-
-
-
-
 #main{
   overflow:auto;
   padding-bottom:100px; /* makes sure the footer height works*/
@@ -140,16 +137,11 @@ li > a:hover {
   margin-top:auto;
   clear: both;
 }
-/* old footer settings + change #main padding bottom to 200px, 
-i.e hieght of the footer if something doesnt wokrout
-#footer{
-  background-color: black;
-  position: relative;
-  height: 200px;
-  margin-top: -200px;
-  clear: both;
+
+#footerlink{
+  font-size: 14px;
+  color:orange;
 }
-*/
 
 .column {
   float: left;
@@ -165,13 +157,20 @@ i.e hieght of the footer if something doesnt wokrout
   clear: both;
 }
 
+img {
+  width: 1000px;
+  height: auto;
+  position:relative;
+  left: 100px;
+  top: -100px;
 
+}
 
-/* formnating for text below title */
 .second_title{
   font-family:sans-serif;
   font-size: 65px;
-
+  
+  
 }
 .descrip_text{
   font-family: sans-serif;
@@ -179,40 +178,31 @@ i.e hieght of the footer if something doesnt wokrout
   
 }
 
-.right_text_box{
+#right_text_box{
   position:relative;
-  top:-200x;
+  top:-200px;
   left:40%;
-  border-style: solid; 
+  border-style: solid;  
   text-align:right;
-  width:40%; 
-}
+  width:40%;
 
-.left_text_box {
+  
+}
+#left_text_box {
   position:relative;
   left:30px;
-  border-style: solid;  
+  border-style: solid; 
   text-align:left;
   width:40%;
   }
-
 
   .box{
     position:relative;
     background-image:url("crocin.png");
     border-style: solid;
     width: 1000px;
-    height: 600px;
+    height: 500px;
     position:relative;
     left: 100px;
     top: -100px;
-  }
-
-  img {
-    width: 1000px;
-    height: auto;
-    position:relative;
-    left: 100px;
-    top: -100px;
-  
   }
