@@ -184,7 +184,7 @@ img {
   
 }
 
-#right_text_box{
+.right_text_box{
   position:relative;
   top:-200x;
   left:40%;
@@ -193,7 +193,7 @@ img {
   width:40%; 
 }
 
-#left_text_box {
+.left_text_box {
   position:relative;
   left:30px;
   background:blue;  
