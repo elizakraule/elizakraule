@@ -5,8 +5,7 @@ selectors). */
   margin:0;
   padding:0;
   box-sizing: border-box;
-  background-color: rgb(249, 120, 51); /* For browsers that do not support gradients */
-  background-image: radial-gradient(rgb(255, 0, 43), rgb(220, 114, 78));
+
 }
 
 html, body {
@@ -15,8 +14,8 @@ html, body {
 
 body {
   margin-top:15px;
- /* background-color: rgb(249, 120, 51);  For browsers that do not support gradients 
-  background-image: radial-gradient(rgb(255, 0, 43), rgb(220, 114, 78));*/
+  background-color: rgb(249, 120, 51); /* For browsers that do not support gradients */
+  background-image: radial-gradient(rgb(255, 0, 43), rgb(220, 114, 78));
   font-family: sans-serif;
   font-size: 14px;
   color: rgb(252, 228, 205); 
