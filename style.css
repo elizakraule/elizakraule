@@ -163,7 +163,6 @@ img {
   font-family:sans-serif;
   font-size: 65px;
 
-  
 }
 .descrip_text{
   font-family: sans-serif;
@@ -176,9 +175,7 @@ img {
   left:40%;
   background: yellow;  
   text-align:right;
-  width:40%;
-  backgrund:yellow;
-  
+  width:40%; 
 }
 
 #left_text_box {
