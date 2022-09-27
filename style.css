@@ -197,11 +197,10 @@ img {
   }
 
   .box{
-    position:relative;
-    background-image:url("crocin.png");
+    position:relative; 
+    background-image:url("img/crocin.png");
+    background-size: contain;
     border-style: solid;
-    width: 1000px;
-    height: 500px;
     position:relative;
     left: 100px;
     top: -100px;
