@@ -119,12 +119,12 @@ li > a:hover {
 /* FOOTER */
 
 #container{
-  min-height:100%;
+  min-height:95%; /* makes sure the footer is pushed bellow works*/
 }
 
 #main{
   overflow:auto;
-  padding-bottom:200px; /*footer height*/
+  padding-bottom:200px; /* makes sure the footer height works*/
 }
 #footer{
   background-color: black;
