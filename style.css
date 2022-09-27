@@ -185,11 +185,10 @@ img {
 }
 
 #right_text_box{
-
   position:relative;
   top:-200x;
   left:40%;
-  background: yellow;  
+  background: greenyellow;  
   text-align:right;
   width:40%; 
 }
