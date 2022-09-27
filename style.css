@@ -171,8 +171,9 @@ img {
 }
 
 #right_text_box{
+
   position:relative;
-  top:-30px;
+  top:-200x;
   left:40%;
   background: yellow;  
   text-align:right;
