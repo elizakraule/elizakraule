@@ -198,7 +198,7 @@ i.e hieght of the footer if something doesnt wokrout
 
   .box{
     position:relative;
-    background-image:url(crocin.png);
+    background-image:url("crocin.png");
     border-style: solid;
     width: 1000px;
     height: auto;
