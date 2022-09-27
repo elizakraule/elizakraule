@@ -20,6 +20,7 @@ body {
   font-size: 14px;
   color: rgb(252, 228, 205); 
   min-height: 100vh;
+  border-style: solid;
 }
 a{
   text-decoration:none
@@ -132,7 +133,7 @@ li > a:hover {
   padding-bottom:100px; /* makes sure the footer height works*/
 }
 #footer{
-  background:orange;
+  border-style: solid;
   position: relative;
   height: auto;
   margin-top:auto;
@@ -181,7 +182,7 @@ i.e hieght of the footer if something doesnt wokrout
   position:relative;
   top:-200x;
   left:40%;
-  background: greenyellow;  
+  border-style: solid; 
   text-align:right;
   width:40%; 
 }
@@ -189,7 +190,7 @@ i.e hieght of the footer if something doesnt wokrout
 .left_text_box {
   position:relative;
   left:30px;
-  background:blue;  
+  border-style: solid;  
   text-align:left;
   width:40%;
   }
@@ -197,8 +198,9 @@ i.e hieght of the footer if something doesnt wokrout
 
   .box{
     position:relative;
-     background-image:url(crocin.png);
-      width: 1000px;
+    background-image:url(crocin.png);
+    border-style: solid;
+    width: 1000px;
     height: auto;
     position:relative;
     left: 100px;
