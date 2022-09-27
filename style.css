@@ -106,6 +106,7 @@ li > a:hover {
 /* TITLE */
 .title{
   font-size:120px;
+  border-style: solid;
   line-height:1;
   width:55%;
   margin-left:70px;
@@ -201,7 +202,7 @@ i.e hieght of the footer if something doesnt wokrout
     background-image:url("crocin.png");
     border-style: solid;
     width: 1000px;
-    height: auto;
+    height: 600px;
     position:relative;
     left: 100px;
     top: -100px;
