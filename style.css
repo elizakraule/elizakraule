@@ -123,10 +123,23 @@ li > a:hover {
   min-height:95%; /* makes sure the footer is pushed bellow works*/
 }
 
+
+
+
+
 #main{
   overflow:auto;
-  padding-bottom:200px; /* makes sure the footer height works*/
+  padding-bottom:100px; /* makes sure the footer height works*/
 }
+#footer{
+  background:orange;
+  position: relative;
+  height: auto;
+  margin-top:auto;
+  clear: both;
+}
+/* old footer settings + change #main padding bottom to 200px, 
+i.e hieght of the footer if something doesnt wokrout
 #footer{
   background-color: black;
   position: relative;
@@ -134,6 +147,7 @@ li > a:hover {
   margin-top: -200px;
   clear: both;
 }
+*/
 
 .column {
   float: left;
