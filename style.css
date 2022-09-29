@@ -168,6 +168,7 @@ img {
 
 .second_title{
   font-family:sans-serif;
+  position:absolute;
   font-size: 65px;
   
   
@@ -201,7 +202,14 @@ img {
     background-image:url("img/crocin.png");
     background-size: contain;
     border-style: solid;
-    
     left: 100px;
     top: -100px;
+}
+img {
+  width: 1000px;
+  height: auto;
+  position:relative;
+  left: 100px;
+  top: -100px;
+
 }
