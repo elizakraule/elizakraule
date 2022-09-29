@@ -170,14 +170,14 @@ li > a:hover {
 }
 
 #right_text_box{
-  color: #F7BE33;
+  position:relative;
+  color: black;
   left:40%;
   border-style: solid;  
   text-align:right;
   width:40%;
-
-  
 }
+
 #left_text_box {
   position:relative;
   left:30px;
