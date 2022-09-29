@@ -157,18 +157,10 @@ li > a:hover {
   clear: both;
 }
 
-img {
-  width: 1000px;
-  height: auto;
-  position:relative;
-  left: 100px;
-  top: -100px;
-
-}
 
 .second_title{
   font-family:sans-serif;
-  position:absolute;
+  position:relative;
   font-size: 65px;
   
   
@@ -181,8 +173,8 @@ img {
 
 #right_text_box{
   position:relative;
-  top:-200px;
   left:40%;
+  top:-200;
   border-style: solid;  
   text-align:right;
   width:40%;
@@ -211,6 +203,6 @@ img {
   height: auto;
   position:relative;
   left: 100px;
-  top: -100px;
+  top: -200px;
 
 }
