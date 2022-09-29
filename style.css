@@ -68,7 +68,7 @@ nav {
   font-family:Sans-Serif;
   cursor:default;
   text-align:right;
-  margin-left:10px
+  margin-left:10px;
 }
 
 .drop_items {
@@ -161,10 +161,7 @@ li > a:hover {
 
 .second_title{
   font-family:sans-serif;
-  position:relative;
   font-size: 65px;
-  
-  
 }
 .descrip_text{
   font-family: sans-serif;
@@ -173,9 +170,7 @@ li > a:hover {
 }
 
 #right_text_box{
-  position:relative;
   left:40%;
-  top:-200;
   border-style: solid;  
   text-align:right;
   width:40%;
