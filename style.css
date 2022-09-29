@@ -20,7 +20,7 @@ body {
   margin-top:15px;
   font-family: sans-serif;
   font-size: 14px;
-  color: rgb(252, 228, 205); 
+  color: #FCE4CD; 
   min-height: 100vh;
 }
 a{
@@ -31,7 +31,7 @@ h1 {
   font-size: 112x;
   font-weight: bold;
   margin-top: 30% 30%;
-  color: rgb(252, 228, 205);
+  color: #FCE4CD;
   font-family: Sans-Serif;
   
 }
@@ -39,7 +39,7 @@ h1 {
 p {
   font-size: 32x;
   font-weight: bold;
-  color: rgb(252, 228, 205);
+  color: #FCE4CD;
   font-family: Sans-Serif;
 }
 
