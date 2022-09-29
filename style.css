@@ -95,12 +95,12 @@ ul:hover ul, li, li > a {
   list-style-type:none;
   text-decoration:none;
   font-size:18px;
-  color:blue;
+  color: #FED854;
   line-height: 1.5;
 }
 
 li > a:hover {
-  color:red;
+  color: #C1B6FF;
 }
 
 
@@ -201,5 +201,4 @@ img {
   position:relative;
   left: 100px;
   bottom: 200px;
-
 }
