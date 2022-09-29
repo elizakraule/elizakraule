@@ -63,7 +63,7 @@ nav {
 
 .mainitems {
   padding:0;
-  color: rgb(230, 217, 24);
+  color: #F7BE33;
   font-size:20px;
   font-family:Sans-Serif;
   cursor:default;
@@ -117,7 +117,8 @@ li > a:hover {
 }
 
 .title_description{
-  margin-left:70px
+  margin-left:70px;
+  color: #F7BE33;
 }
 
 /* FOOTER */
