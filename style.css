@@ -207,6 +207,7 @@ img {
 }
 img {
   width: 1000px;
+  border-style: solid;
   height: auto;
   position:relative;
   left: 100px;
