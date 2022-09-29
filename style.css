@@ -170,6 +170,7 @@ li > a:hover {
 }
 
 #right_text_box{
+  color: #F7BE33;
   left:40%;
   border-style: solid;  
   text-align:right;
