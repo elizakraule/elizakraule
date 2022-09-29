@@ -200,6 +200,6 @@ img {
   height: auto;
   position:relative;
   left: 100px;
-  top: -200px;
+  bottom: 200px;
 
 }
