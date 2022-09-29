@@ -9,7 +9,6 @@ selectors). */
 }
 
 html, body {
- 
   height:100%;
 }
 
@@ -170,8 +169,8 @@ li > a:hover {
 }
 
 #right_text_box{
-  position:relative;
-  color: black;
+  position:absolute;
+  color: red;
   left:40%;
   border-style: solid;  
   text-align:right;
